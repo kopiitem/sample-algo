@@ -1,0 +1,39 @@
+Given Set a Buildings:
+[source,json]
+----
+[
+    {
+        "gym": false,
+        "school": true,
+        "store": false
+    },
+    {
+        "gym": true,
+        "school": false,
+        "store": false
+    },
+    {
+        "gym": true,
+        "school": true,
+        "store": false
+    },
+    {
+        "gym": false,
+        "school": true,
+        "store": false
+    },
+    {
+        "gym": false,
+        "school": true,
+        "store": true
+    }
+]
+----
+With Requirement:
+[source,json]
+----
+["gym", "school", "store"]
+----
+Goal:
+----
+Find the building that will minimize the distance to meet the given requirement
